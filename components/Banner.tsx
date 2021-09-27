@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Banner = (): JSX.Element => {
-	return <nav>배너</nav>;
+	return <h1>배너</h1>;
 };
 
 export default Banner;

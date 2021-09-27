@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Menu from '../components/Menu';
 import Banner from '../components/Banner';
 import styles from '../styles/Home.module.css';
+import LectureGroup from '../components/lecture/lectureGroup';
 
 const Home: NextPage = () => {
 	return (
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
 
 			<Menu />
 			<Banner />
+			<LectureGroup />
 
 			<div title="lectureList">
 				<h1>강의 목록</h1>
