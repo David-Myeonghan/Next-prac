@@ -4,12 +4,11 @@
 
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Home from '../pages/index';
-import Index from '../pages/index';
+import Detail from '../pages/detail';
 
-describe('Home', () => {
+describe('Detail 페이지', () => {
 	it('강의목록이 렌더링 되어야 한다', () => {
-		const { getByTitle } = render(<Index />);
+		const { getByTitle } = render(<Detail />);
 
 		const lectureList = getByTitle('lectureList');
 
